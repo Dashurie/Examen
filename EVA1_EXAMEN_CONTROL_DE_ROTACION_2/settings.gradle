@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='EVA1_EXAMEN_CONTROL_DE_ROTACION_2'
