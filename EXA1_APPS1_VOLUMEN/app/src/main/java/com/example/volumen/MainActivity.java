@@ -34,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
         editradio = findViewById(R.id.Radionum);
         btncalcular = findViewById(R.id.BtnCal);
         hide = findViewById(R.id.layoutapp);
-        editradio.setText("0");
+        if (editradio ==null){
+            editradio.setText("0");
+        }
         //Se crean los limites
         barangulo.setProgress(0);
         barangulo.setMax(360);
@@ -90,6 +92,5 @@ else{
             InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(editradio.getWindowToken(), 0);
         }
-
 }
 

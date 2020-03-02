@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         rdGrpSerie.setOnCheckedChangeListener(this);
     }
 
-    public void algebraicSeries(){
+    public void arithmethicSeries (){
         cleanAll();
         //Aleatorios de la formula
         d = n.nextInt(100)+1;
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         j++;
     }
 
-    public void arithmethicSeries(){
+    public void algebraicSeries(){
         cleanAll();
 
         r = n.nextInt(4)+2;
